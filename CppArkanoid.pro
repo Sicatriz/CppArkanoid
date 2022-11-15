@@ -4,4 +4,10 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        main.cpp
+        main.cpp \
+        rectf.cpp \
+        vec2.cpp
+
+HEADERS += \
+    rectf.h \
+    vec2.h
